@@ -1,0 +1,41 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap"); */
+
+/* @font-face {
+  font-family: 'Beautiful People';
+  src: url('../assets/fonts/BeautifulPeople.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply the custom font to the body */
+/* body {
+  font-family: 'Beautiful People', sans-serif;
+} */
+
+/* Apply the custom font to specific elements if desired */
+/* h1, h2, h3, p {
+  font-family: 'Beautiful People', sans-serif;
+} */
+
+
+@import url("https://use.typekit.net/xse5nuu.css");
+
+h1, h2, h3, p {
+font-family: "proxima-nova", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+/* :root {
+  --md-primary-fg-color: red;
+  --md-primary-fg-color--light: violet;
+  --md-primary-fg-color--dark: pink;
+} */
+[data-md-color-scheme="youtube"] {
+  --md-primary-fg-color: green;
+  --md-primary-fg-color--light: blue;
+  --md-primary-fg-color--dark: yellow;
+}
+[data-md-color-accent="yellow"] {
+  --md-accent-fg-color: green;
+  --md-accent-fg-bg-color--dark: red;
