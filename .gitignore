@@ -1,0 +1,59 @@
+# MkDocs build directory
+site/
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.swp
+*.swp~
+
+# macOS system files
+.DS_Store
+
+# Node modules (if using npm)
+node_modules/
+
+# Distribution files
+dist/
+
+# Generated documentation content
+docs/generated/
+
+# IDE/project-specific files
+.vscode/
+.idea/
+
+# Test and coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# MkDocs cache
+.mkdocs_cache/
+
+# System-specific files
+Thumbs.db
+Desktop.ini
+.directory
+
+# Temporary files and backups
+*~
+.*~
+
+# Log files for services
+*.out
+*.err
+
+# Custom build and cache directories
+.cache/
+build/
